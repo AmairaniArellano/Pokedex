@@ -1,0 +1,49 @@
+body {
+    background-color: #307dcf;
+}
+h1 {
+    color: yellow;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    -webkit-text-stroke-color: #2b6fb6;
+    -webkit-text-stroke-width: 2.00px;
+}
+.form {
+    display: flex;
+    justify-content: center;
+}
+#search {
+    font-size: 30px;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif
+}
+#send {
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #2b6fb6;
+    color: white;
+    border: none;
+}
+#send:hover {
+    background-color: #519ae8;
+    }
+.boxCard {
+    background-color: white;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 50px;
+    padding: 15px;
+    text-align: center;
+}
+.notFound {
+    color: #f00;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
